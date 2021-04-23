@@ -68,25 +68,25 @@ Vagrant.configure("2") do |config|
      apt-get update
      apt-get install -y nginx
     
-    #sudo apt update
-    #sudo apt install git
+    sudo apt update
+    sudo apt install git
     
-    #sudo apt update
-    #curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-    #sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
-    #sudo apt-get update && sudo apt-get install terraform
+    sudo apt update
+    curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+    sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
+    sudo apt-get update && sudo apt-get install terraform
     
     
-    #sudo apt update
-    #sudo apt install software-properties-common
-    #sudo apt-add-repository ppa:ansible/ansible
-    #sudo apt-add-repository --yes --update ppa:ansible/ansible
+    sudo apt update
+    sudo apt install software-properties-common
+    sudo apt-add-repository ppa:ansible/ansible
+    sudo apt-add-repository --yes --update ppa:ansible/ansible
     
-    #sudo apt-get update
-    #sudo apt install -y ansible
+    sudo apt-get update
+    sudo apt install -y ansible
    
-    #sudo apt update
-    #curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+    sudo apt update
+    curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
     SHELL
    
